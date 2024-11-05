@@ -1,5 +1,6 @@
 import sys
-import logging
+from src.logger import logging
+
 # Function to get detailed error information
 def error_message_detail(error, error_detail: sys):
     # Get the traceback information from the error details
